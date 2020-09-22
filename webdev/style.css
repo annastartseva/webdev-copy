@@ -201,7 +201,7 @@ nav li:hover {
     margin-top: 295px;
     margin-right: 251px;
     margin-left: 268px;
-    weight: 924px;
+    weight: 923px;
 }
 
 .rappresent_h3 {
@@ -228,12 +228,13 @@ nav li:hover {
 }
 
 .rappresent__button {
-    margin-top: 4px;
+    margin-top: 3px;
+    margin-left: 1px;
 }
 
 .rappresent__image {
     margin-top: 120px;
-    margin-right: 8px;
+    margin-right: 0px;
 }
 
 .counter {
@@ -268,7 +269,7 @@ nav li:hover {
 }
 
 .slash {
-    margin: 0 10px;
+    margin: 1px 7px 0 5px;
 }
 
 .our_community {
@@ -334,7 +335,7 @@ nav li:hover {
 }
 
 .implement__content {
-    margin-top: 294px;
+    margin-top: 320px;
     margin-left: 139px;
 }
 
@@ -364,7 +365,28 @@ nav li:hover {
 }
 
 .implement__button {
-    margin-top: 17px;
+    margin-top: 2px;
+}
+
+.button_1 {
+    width: 181px;
+    height: 46px;
+    background-color: #00AFDB;
+    color: #ffffff;
+    border: none;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+    margin-top: 30px;
+    align-items: center;
+    text-align: center;
+}
+
+.button_1:hover {
+    background-color: #009CC2;
+    cursor: pointer;
+    border: none;
 }
 
 .sign_up {
@@ -394,18 +416,18 @@ nav li:hover {
 .sign_up_form {
     display: flex;
     justify-content: center;
+    margin-top: 29px;
 }
 
 .email {
-    width: 330px;
-    height: 46px;
+    width: 315px;
+    height: 43px;
     background: #ffffff;
-    color: #373737;
     border: none;
     font-weight: bold;
-    padding: 0 0 0 20px;
-    margin-right: -3px;
-    margin-top: 30px;
+    padding-left: 28px;
+    padding-right: 0px;
+    padding-top: 2px;
 }
 
 email:hover {
@@ -418,7 +440,6 @@ email:hover {
     background: #00afdb;
     border: none;
     transition: 0.5s;
-    margin-top: 31px;
 }
 
 button_send:hover {
@@ -458,7 +479,7 @@ button_send:hover {
     font-size: 14px;
     line-height: 140%;
     color: #4e4e4e;
-    margin-top: 20px;
+    margin-top: 22px;
 }
 
 .store-buttons {
@@ -467,7 +488,7 @@ button_send:hover {
 
 .view_button {
     display: inline;
-    margin: 30px 15px 0 15px;
+    margin: 31px -5px 0 33px;
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -475,7 +496,7 @@ button_send:hover {
 
 .left_part {
     width: 128px;
-    height: 50px;
+    height: 47px;
     background-color: #00AFDB;
     color: #ffffff;
     border: none;
@@ -492,7 +513,7 @@ button_send:hover {
 
 .right_part {
     width: 60px;
-    height: 50px;
+    height: 47px;
     background-color: #009cc2;
     color: #ffffff;
     border: none;
@@ -513,7 +534,6 @@ button_send:hover {
     height: 185px;
     display: flex;
     flex-direction: row;
-    align-items: center;
 }
 
 .footer_navigation {
@@ -526,8 +546,8 @@ button_send:hover {
     display: flex;
     font-family: 'Roboto', Verdana, sans-serif;
     flex-direction: row;
+    margin-bottom: 14px;
     justify-content: center;
-    align-items: center;
     padding: 0px;
     color: white;
 }
@@ -545,13 +565,14 @@ button_send:hover {
 }
 
 .divisor {
-    margin: 0 20px;
+    margin: 0 19px;
     font-family: 'Roboto', Verdana, sans-serif;
     font-size: 10px;
 }
 
 .footer-logo {
     margin-left: 382px;
+    margin-top: 60px;
 }
 
 .copyright {
@@ -560,7 +581,7 @@ button_send:hover {
     font-weight: normal;
     font-size: 14px;
     line-height: 140%;
-    text-align: center;
     margin-left: 448px;
+    margin-top: 75px;
     font-family: 'Roboto', Verdana, sans-serif;
 }
