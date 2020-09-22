@@ -78,13 +78,6 @@ button:hover {
     border: none;
 }
 
-.wrapper {
-    height: 100%;
-    width: 1600px;
-    padding: 0px;
-    margin: 0px auto;
-}
-
 .img_header {
     background-image: url(assets/bg-image.png);
     height: 744px;
@@ -120,7 +113,7 @@ nav img {
 nav li a {
     text-decoration: none;
     color: white;
-    font-family: Roboto;
+    font-family: 'Roboto', Verdana, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -379,7 +372,6 @@ nav li a:hover {
 .sign_up_form {
     display: flex;
     justify-content: center;
-    margin-top: 30px;
 }
 
 .email {
@@ -389,18 +381,22 @@ nav li a:hover {
     color: #373737;
     border: none;
     font-weight: bold;
-    padding-left: 24px;
-    padding-right: 0px;
-    padding-top: 2px;
+    padding: 0 0 0 20px;
     margin-right: -3px;
+    margin-top: 30px;
+}
+
+email:hover {
+    cursor: text;
 }
 
 .button_send {
     width: 66px;
-    height: 50px;
+    height: 46px;
     background: #00afdb;
     border: none;
     transition: 0.5s;
+    margin-top: 31px;
 }
 
 button_send:hover {
@@ -412,7 +408,82 @@ button_send:hover {
 .download {
     background-color: #F5F6F7;
     height: 464px;
-    width: 1600px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.download_block {
+    height: 464px;
+    margin-top: 119px;
+}
+
+.download_h3 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-family: 'Roboto', Verdana, sans-serif;
+    color: #373737;
+}
+
+.download_text {
+    font-family: 'Roboto', Verdana, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 140%;
+    color: #4e4e4e;
+    margin-top: 20px;
+}
+
+.store-buttons {
+    display: flex;
+}
+
+.view_button {
+    display: inline;
+    margin: 30px 15px 0 15px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left_part {
+    width: 128px;
+    height: 50px;
+    background-color: #00AFDB;
+    color: #ffffff;
+    border: none;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+.right_part {
+    width: 60px;
+    height: 50px;
+    background-color: #009cc2;
+    color: #ffffff;
+    border: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+.market:hover button {
+    background-color: #009cc2;
+    cursor: pointer;
 }
 
 .footer {
